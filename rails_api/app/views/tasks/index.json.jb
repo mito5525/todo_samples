@@ -1,0 +1,10 @@
+{
+  total_count: @tasks.count,
+  tasks: @tasks.map do |task|
+    {
+      id: task.id,
+      title: task.title,
+      category_id: task.category_id
+    }
+  end
+}
