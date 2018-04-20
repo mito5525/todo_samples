@@ -13,9 +13,6 @@ gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 # AppServer
 gem 'puma', '~> 3.7'
 
-# View
-gem 'jb'
-
 group :development, :test do
   gem 'byebug'
   gem 'pry'
